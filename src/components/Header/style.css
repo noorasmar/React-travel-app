@@ -1,0 +1,43 @@
+header{
+    position: relative;
+    width: 98%;
+    height: 581px;
+    margin: 30px auto;
+    padding: 30px;
+    background-image: url('/public/assets/imgs/header/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header .find{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+header .find .item{
+    flex-basis: 50%;
+}
+header .find .item img{
+    width: 20%;
+}
+header .find a{
+    text-decoration: none;
+    color: #fff;
+    font-size: var(--small-font);
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        width: 90%;
+        height: 500px;
+    }
+    header .find{
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    header .find a{
+        font-size: 0.775rem;
+    }
+}

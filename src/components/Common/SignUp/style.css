@@ -1,0 +1,7 @@
+
+.btn-light{
+    font-size: var(--small-font);
+    font-weight: 600;
+    padding: 8px 16px;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}

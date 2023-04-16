@@ -1,0 +1,20 @@
+:root{
+    --body-bg-color: #FAFBFC;
+    --border-color: #D7E2EE;
+    --btn-color: #8DD3BB;
+    --small-font: 0.875rem;
+    --p-color: #112211;
+    --subs-color: #CDEAE1;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('/public/assets/webfonts/Trade\ Gothic\ LT\ Std\ Extended.otf');
+}
+@font-face {
+    font-family: 'MyWebFont2';
+    src: url('/public/assets/webfonts/Montserrat-Regular.ttf');
+}
+body{
+    background-color: var(--body-bg-color);
+    font-family: MyWebFont, Fallback, sans-serif;
+}
