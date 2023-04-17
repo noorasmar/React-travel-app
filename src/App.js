@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Booking from './components/Booking';
 import Plan from './components/Plan';
 import Show from './components/Show';
+import Reviews from './components/Reviews';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Booking />
       <Plan />
       <Show />
+      <Reviews />
     </div>
   );
 }

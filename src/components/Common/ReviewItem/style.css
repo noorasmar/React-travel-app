@@ -1,0 +1,60 @@
+.reviews .item{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 26px 24px 0px -3px rgba(141, 211, 187, 0.4),0px -4px 18px -3px rgba(0,0,0,0.1);
+    position: relative;
+}
+.reviews .item h4{
+    color: var(--p-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}
+.reviews .item small{
+    display: block;
+    font-weight: 500;
+    font-size: var(--small-font);
+    line-height: 1.5;
+    color: #bbb;
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-bottom: 12px;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.reviews .item p{
+    font-weight: 700;
+    color: var(--p-color);
+    font-size: var(--small-font);
+    text-align: right;
+    margin-bottom: 17px;
+}
+.reviews .stars{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 21px;
+}
+.reviews h6{
+    font-weight: 700;
+    font-size: var(--small-font);
+    margin-bottom: 4px;
+}
+.reviews .logo{
+    color: var(--p-color);
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+.reviews img{
+    max-width: 100%;
+    transition: 0.3s all;
+}
+.reviews .item:hover img{
+    transform: rotate(7deg);
+}
+@media only screen and (max-width: 600px) {
+    .reviews .item{
+        margin-bottom: 30px;
+    }
+}

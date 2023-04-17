@@ -18,8 +18,34 @@
     align-items: center;
     font-family: MyWebFont2, Fallback, sans-serif;
 }
+.reviews {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.reviews h2{
+    font-weight: 600;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.reviews p{
+    color: var(--p-color);
+    font-weight: 400;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.reviews .btn-light{
+    border: 1px solid var(--btn-color);
+    background-color: #fff;
+}
+.reviews .see-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
 @media only screen and (max-width: 600px) {
     .plan .see-more{
+        display: block;
+    }
+    .reviews .see-more{
         display: block;
     }
 }
