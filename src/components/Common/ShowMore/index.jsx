@@ -2,7 +2,7 @@ import './style.css'
 
 function ShowMore({title, pText, btnText}) {
     return (
-        <div className="row">
+        <div className="row show-more">
             <div className="col-8">
             <h2>{title}</h2>
             <p>{pText}</p>

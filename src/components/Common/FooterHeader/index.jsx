@@ -2,7 +2,7 @@ import './style.css';
 
 function FooterHeader({title}) {
     return (
-        <h6>{title}</h6>
+        <h6 className='footer-header'>{title}</h6>
     );
 }
 

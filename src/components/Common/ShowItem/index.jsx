@@ -3,7 +3,7 @@ import ShowBtn from '../ShowBtn';
 
 function ShowItem({title, pText,}) {
     return (
-        <div className="item flight">
+        <div className="item flight show-item">
             <div className="overlay"></div>
             <div className="info">
                 <h4>{title}</h4>

@@ -7,7 +7,7 @@ import ButtonsGroup from '../ButtonsGroup';
 
 function Form() {
     return (
-        <form>
+        <form className='form-booking'>
             <div className="row py-3">
                 <div className="col-md-4 col-sm-12">
                     <div className="input-wrapper">

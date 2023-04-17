@@ -1,4 +1,4 @@
-.show .row .item{
+.show-item{
     position: relative;
     width: 100%;
     height: 559px;
@@ -8,17 +8,17 @@
     overflow: hidden;
     transition: 0.3s all;
 }
-.show .row .item:hover .info h4,
-.show .row .item:hover .info p{
+.show-item:hover .info h4,
+.show-item:hover .info p{
     color: var(--btn-color);
 }
-.show .row .flight{
+.flight{
     background-image: url("/public/assets/imgs/show/Rectangle\ 40.png");
 }
-.show .row .hotel{
+.hotel{
     background-image: url('/public/assets/imgs/show/Rectangle\ 41.png');
 }
-.show .info{
+.show-item .info{
     position: absolute;
     bottom: 30px;
     left: 50%;
@@ -26,14 +26,14 @@
     text-align: center;
     z-index: 55;
 }
-.show .info h4{
+.show-item h4{
     color: #fff;
     font-weight: 700;
     font-size: 2.5rem;
     padding: 16px;
     margin-bottom: 8px;
 }
-.show .info p{
+.show-item p{
     color: #fff;
     font-weight: 400;
     font-size: var(--small-font);
@@ -42,7 +42,7 @@
     font-family: MyWebFont2, Fallback, sans-serif;
 }
 @media only screen and (max-width: 600px) {
-    .show .row .item{
+    .show-item{
         margin-bottom: 30px;
     }
 }

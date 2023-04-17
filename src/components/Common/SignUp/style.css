@@ -1,5 +1,5 @@
 
-header .login .btn-light{
+.login .btn-light{
     font-size: var(--small-font);
     font-weight: 600;
     padding: 8px 16px;

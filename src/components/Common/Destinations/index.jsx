@@ -1,4 +1,3 @@
-import './style.css'
 import MockObject from './MockObject'
 import PlanItem from './../PlanItem/index';
 

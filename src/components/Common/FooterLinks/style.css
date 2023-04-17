@@ -1,5 +1,5 @@
 
-footer a{
+.footer-links{
     display: block;
     text-decoration: none;
     color: var(--p-color);
@@ -7,11 +7,11 @@ footer a{
     transition: 0.3s all;
     font-family: MyWebFont2, Fallback, sans-serif;
 }
-footer a:hover{
+.footer-links:hover{
     color: #fff;
 }
 @media only screen and (max-width: 768px) and (min-width: 600px) {
-    footer a{
+    .footer-links{
         font-size: 0.6rem;
     }
 }

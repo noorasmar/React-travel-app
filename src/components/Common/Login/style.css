@@ -1,5 +1,5 @@
 
-header .login .btn-link{
+.login .btn-link{
     text-decoration: none;
     color: #fff;
     font-size: var(--small-font);
@@ -7,7 +7,7 @@ header .login .btn-link{
     font-family: MyWebFont2, Fallback, sans-serif;
 }
 @media only screen and (max-width: 600px) {
-    header .login{
+    .login{
         display: none;
     }
 }

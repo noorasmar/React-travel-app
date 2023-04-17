@@ -1,4 +1,5 @@
-import './style.css'
+import './style.css';
+import ShowBtn from './../ShowBtn/index';
 
 function ButtonsGroup() {
     return (
@@ -8,8 +9,7 @@ function ButtonsGroup() {
                 <img src="./assets/imgs/booking/plus.png" alt="plus"/> Add Promo Code</button>
             </div>
             <div className="item">
-                <button type="button" className="btn btn-primary">
-                <img src="./assets/imgs/booking/send.png" alt="plus"/> Show Filghts</button>
+                <ShowBtn text='Filghts'/>
             </div>
         </div>
     );

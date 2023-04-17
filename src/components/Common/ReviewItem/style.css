@@ -1,17 +1,17 @@
-.reviews .item{
+.review-item{
     background-color: #fff;
     padding: 24px;
     border-radius: 20px;
     box-shadow: 26px 24px 0px -3px rgba(141, 211, 187, 0.4),0px -4px 18px -3px rgba(0,0,0,0.1);
     position: relative;
 }
-.reviews .item h4{
+.review-item h4{
     color: var(--p-color);
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 16px;
 }
-.reviews .item small{
+.review-item small{
     display: block;
     font-weight: 500;
     font-size: var(--small-font);
@@ -24,37 +24,37 @@
     margin-bottom: 12px;
     font-family: MyWebFont2, Fallback, sans-serif;
 }
-.reviews .item p{
+.review-item p{
     font-weight: 700;
     color: var(--p-color);
     font-size: var(--small-font);
     text-align: right;
     margin-bottom: 17px;
 }
-.reviews .stars{
+.review-item .stars{
     display: flex;
     gap: 13px;
     margin-bottom: 21px;
 }
-.reviews h6{
+.review-item h6{
     font-weight: 700;
     font-size: var(--small-font);
     margin-bottom: 4px;
 }
-.reviews .logo{
+.review-item .logo{
     color: var(--p-color);
     font-weight: 700;
     margin-bottom: 44px;
 }
-.reviews img{
+.review-item img{
     max-width: 100%;
     transition: 0.3s all;
 }
-.reviews .item:hover img{
+.review-item .item:hover img{
     transform: rotate(7deg);
 }
 @media only screen and (max-width: 600px) {
-    .reviews .item{
+    .review-item{
         margin-bottom: 30px;
     }
 }

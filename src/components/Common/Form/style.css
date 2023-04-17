@@ -1,12 +1,17 @@
 
-.booking form{
+.form-booking{
     margin-top: 30px;
 }
-.booking .buttons{
+.form-booking .buttons{
     display: flex;
     justify-content: flex-end;
     font-family: MyWebFont2, Fallback, sans-serif;
 }
 .input-wrapper {
     position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .input-wrapper{
+        margin-bottom: 15px;
+    }
 }

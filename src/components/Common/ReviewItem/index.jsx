@@ -2,7 +2,7 @@ import './style.css';
 
 function ReviewItem({title, pText, imgSrc}) {
     return (
-        <div className="item">
+        <div className="item review-item">
             <h4>{title}</h4>
             <small>{pText}
             </small>
