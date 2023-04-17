@@ -1,0 +1,17 @@
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: var(--p-color);
+    padding-top: 20px;
+    transition: 0.3s all;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+footer a:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    footer a{
+        font-size: 0.6rem;
+    }
+}

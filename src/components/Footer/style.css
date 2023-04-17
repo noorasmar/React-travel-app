@@ -1,0 +1,22 @@
+
+footer{
+    background-color: var(--btn-color);
+    color: var(--p-color);
+    padding: 50px;
+}
+footer .logo{
+    display: block;
+    margin-bottom: 24px;
+}
+footer .media{
+    display: flex;
+    gap: 13px;
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    footer .logo{
+        width: 80%;
+    }
+    footer .media{
+        flex-wrap: wrap;
+    }
+}

@@ -7,6 +7,7 @@ import Plan from './components/Plan';
 import Show from './components/Show';
 import Reviews from './components/Reviews';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Show />
       <Reviews />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
