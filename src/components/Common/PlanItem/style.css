@@ -1,0 +1,38 @@
+
+.plan .destinations .item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 16px;
+    color: var(--p-color);
+    transition: 0.3s all;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.plan .destinations .item h5{
+    color: var(--p-color);
+    font-weight: 600;
+    opacity: 70%;
+}
+.plan .destinations .item span{
+    font-weight: 600;
+}
+.plan .destinations .item:hover{
+    color: #fff;
+    background-color: var(--btn-color);
+}
+@media only screen and (max-width: 600px) {
+    .plan .destinations .item h5{
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .plan .destinations .item h5{
+        font-size: .8rem;
+    }
+    .plan .destinations .item span{
+        font-size: .6rem;
+    }
+}

@@ -50,3 +50,18 @@ select.l-input{
     right: 16px;
     transform: translateY(-50%);
 }
+@media only screen and (max-width: 600px) {
+    .g-3{
+        --bs-gutter-y: 0rem;
+        --bs-gutter-x: 0rem;
+    }
+    .g-5{
+        --bs-gutter-y: 0rem;
+        --bs-gutter-x: 0rem;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .l-title{
+        font-size: 10px;
+    }
+}
