@@ -1,0 +1,57 @@
+
+.subscribe{
+    position: relative;
+    background: linear-gradient(to bottom,var(--body-bg-color) 50%, var(--btn-color) 50%, var(--btn-color) 100%);
+    bottom: -5px;
+}
+.subscribe .container{
+    background-color: var(--subs-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+.subscribe h3{
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+.subscribe h4{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.subscribe p{
+    font-weight: 500;
+    font-size: var(--small-font);
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.subscribe .input-group{
+    width: 70%;
+    gap: 30px;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+.subscribe .input-group button{
+    width: 20%;
+    border-radius: 5px !important;
+}
+
+.subscribe .form-control{
+    padding: 20px;
+}
+.subscribe .sub-btn .btn-outline-secondary{
+    background-color: var(--p-color);
+    color: #fff;
+}
+.subscribe img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .subscribe .input-group{
+        width: 100%;
+    }
+    .subscribe .input-group button{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .subscribe .input-group button{
+        overflow: hidden;
+    }
+}

@@ -6,6 +6,7 @@ import Booking from './components/Booking';
 import Plan from './components/Plan';
 import Show from './components/Show';
 import Reviews from './components/Reviews';
+import Subscribe from './components/Subscribe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Plan />
       <Show />
       <Reviews />
+      <Subscribe />
     </div>
   );
 }
