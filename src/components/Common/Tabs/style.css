@@ -1,0 +1,9 @@
+
+
+.booking .tabs{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: var(--small-font);
+    font-family: MyWebFont2, Fallback, sans-serif;
+}

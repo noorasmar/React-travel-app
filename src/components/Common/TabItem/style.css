@@ -1,0 +1,28 @@
+
+.booking .tabs .item{
+    cursor: pointer;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.booking .tabs .item:last-of-type{
+    padding-left: 30px;
+}
+.booking .tabs .item:first-of-type::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    background-color: var(--border-color);
+}
+.booking .tabs .active::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 5px;
+    background-color: var(--btn-color);
+}
