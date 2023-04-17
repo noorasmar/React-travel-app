@@ -1,0 +1,48 @@
+.show .row .item{
+    position: relative;
+    width: 100%;
+    height: 559px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s all;
+}
+.show .row .item:hover .info h4,
+.show .row .item:hover .info p{
+    color: var(--btn-color);
+}
+.show .row .flight{
+    background-image: url("/public/assets/imgs/show/Rectangle\ 40.png");
+}
+.show .row .hotel{
+    background-image: url('/public/assets/imgs/show/Rectangle\ 41.png');
+}
+.show .info{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 55;
+}
+.show .info h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+.show .info p{
+    color: #fff;
+    font-weight: 400;
+    font-size: var(--small-font);
+    line-height: 1.9;
+    margin-bottom: 16px;
+    font-family: MyWebFont2, Fallback, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .show .row .item{
+        margin-bottom: 30px;
+    }
+}
