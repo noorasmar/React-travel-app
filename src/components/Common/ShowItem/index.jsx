@@ -2,8 +2,13 @@ import './style.css'
 import ShowBtn from '../ShowBtn';
 
 function ShowItem({title, pText,}) {
+    let classCss = ''
+    if(title === 'Flights')
+        classCss = "item flight show-item"
+    else
+        classCss = "item hotel show-item"
     return (
-        <div className="item flight show-item">
+        <div className={classCss}>
             <div className="overlay"></div>
             <div className="info">
                 <h4>{title}</h4>

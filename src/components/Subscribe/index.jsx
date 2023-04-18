@@ -17,7 +17,7 @@ function Subscribe() {
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-12">
-                        <img src="./assets/imgs/sub/emojione-v1_open-mailbox-with-lowered-flag.png" alt=""/>
+                        <img src={process.env.PUBLIC_URL + "/assets/imgs/sub/emojione-v1_open-mailbox-with-lowered-flag.png"} alt=""/>
                     </div>
                 </div>
             </div>

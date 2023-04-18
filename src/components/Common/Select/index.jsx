@@ -6,7 +6,7 @@ function Select() {
             <select className="l-input" name="trip" id="trip">
                 <option value="return">Return</option>
             </select>
-            <img className="l-icon" src="./assets/imgs/booking/chevron.png" alt="chevron"/>
+            <img className="l-icon" src={process.env.PUBLIC_URL + "/assets/imgs/booking/chevron.png"} alt="chevron"/>
         </>
     );
 }

@@ -8,12 +8,12 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-2 col-sm-12 py-4">
-                        <img className="logo" src="./assets/imgs/footer/Logo.png" alt="Logo"/>
+                        <img className="logo" src={process.env.PUBLIC_URL + "/assets/imgs/footer/Logo.png"} alt="Logo"/>
                         <div className="media">
-                            <img src="./assets/imgs/footer/facebook.png" alt="facebook"/>
-                            <img src="./assets/imgs/footer/twitter.png" alt="twitter"/>
-                            <img src="./assets/imgs/footer/youtube.png" alt="youtube"/>
-                            <img src="./assets/imgs/footer/instagram.png" alt="instagram"/>
+                            <img src={process.env.PUBLIC_URL + "/assets/imgs/footer/facebook.png"} alt="facebook"/>
+                            <img src={process.env.PUBLIC_URL + "/assets/imgs/footer/twitter.png"} alt="twitter"/>
+                            <img src={process.env.PUBLIC_URL + "/assets/imgs/footer/youtube.png"} alt="youtube"/>
+                            <img src={process.env.PUBLIC_URL + "/assets/imgs/footer/instagram.png"} alt="instagram"/>
                         </div>
                     </div>
                     <div className="col-md-2 col-sm-12 py-4">

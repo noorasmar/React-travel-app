@@ -6,7 +6,7 @@ function ButtonsGroup() {
         <div className="buttons py-3">
             <div className="item">
             <button type="button" className="btn btn-link">
-                <img src="./assets/imgs/booking/plus.png" alt="plus"/> Add Promo Code</button>
+                <img src={process.env.PUBLIC_URL + "/assets/imgs/booking/plus.png"} alt="plus"/> Add Promo Code</button>
             </div>
             <div className="item">
                 <ShowBtn text='Filghts'/>
